@@ -6,6 +6,7 @@ phases:
             nodejs: 10
         commands:
             - echo "installing something"
+            - printenv
     pre_build:
         commands: 
             - echo "This is the pre build phase"
